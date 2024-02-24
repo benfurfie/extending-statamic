@@ -1,7 +1,8 @@
 title: Planets
-template: default
+template: planet
 layout: layout
 revisions: false
+route: 'planets/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

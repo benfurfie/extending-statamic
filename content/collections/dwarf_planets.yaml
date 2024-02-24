@@ -1,5 +1,14 @@
 title: 'Dwarf Planets'
+template: planet
+layout: layout
 revisions: false
+route: 'planets/{slug}'
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
